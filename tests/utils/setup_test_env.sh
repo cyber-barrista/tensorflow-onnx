@@ -26,7 +26,7 @@ pip install "tensorflow-text<=$TF_VERSION"
 pip uninstall -y tensorflow
 pip install tensorflow==$TF_VERSION
 pip uninstall -y protobuf
-pip install "protobuf~=3.20"
+pip install "protobuf~=4.25"
 
 python setup.py install
 
